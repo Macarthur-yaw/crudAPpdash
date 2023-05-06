@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#vertiNav ul{
+  
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    /* border: 1px solid; */
+    background-color: whitesmoke;
+    width: 80px;
+    /* padding: 10px; */
+    height: 100vh;
+    text-align: center;
+    /* transition: left 0.3s ease-in-out; */
+}
+
+#vertiNav ul button{
+    padding: 10px;
+    text-align: center;
+    color: gray;
+}
+nav{
+
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 5px;
+    justify-content: space-between;
+    /* background-color: rgb(201, 199, 199); */
+}
+/* #menuView{
+    background-color: white;
+    border: none;
+    padding: 5px;
+} */
+#searchText{
+    max-width: 100%;
+    padding: 2px;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    border: 0.4px thin ;
+}
+.hidden{
+    display:none;
+    position: absolute;
+    z-index: 1;
+    }
+
+    .hid{
+        display: none;
+        padding: 10px;
+       background-color: white;
+    }
+
+    
+#Home{
+    padding: 5px;
+}
+#forms{
+    display: flex;
+    flex-direction: column;
+}
